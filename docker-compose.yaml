@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  app:
+    container_name: directory-lister-app
+    build: .
+    environment:
+      VIRTUAL_HOST: directory-lister.local
+    volumes:
+      - ./:/var/www/html
+    restart: unless-stopped
+
+networks:
+  default:
+    external:
+      name: development

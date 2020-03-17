@@ -1,71 +1,70 @@
-Directory Lister - The simple PHP directory lister
-==================================================
-Created by, [Chris Kankiewicz](http://www.ChrisKankiewicz.com)
+<p align="center">
+  <img src="directory-lister.svg" alt="Directory Lister" width="66%">
+</p>
 
+<p align="center">
+  <a href="https://github.com/DirectoryLister/DirectoryLister/blob/master/LICENSE"><img src="https://img.shields.io/github/license/DirectoryLister/DirectoryLister?style=flat-square" alt="License"></a>
+  <a href="https://travis-ci.org/DirectoryLister/DirectoryLister"><img src="https://img.shields.io/travis/DirectoryLister/DirectoryLister.svg?branch=master&style=flat-square" alt="Build Status"></a>
+  <a href="https://styleci.io/repos/1375774"><img src="https://styleci.io/repos/1375774/shield?branch=master" alt="StyleCI"></a>
+  <a href="https://spectrum.chat/directory-lister"><img src="https://img.shields.io/badge/Join_the-Community-7b16ff.svg?style=flat-square" alt="Join our Community"></a>
+  <a href="https://github.com/users/PHLAK/sponsorship"><img src="https://img.shields.io/badge/Become_a-Sponsor-cc4195.svg?style=flat-square" alt="Become a Sponsor"></a>
+  <a href="https://paypal.me/ChrisKankiewicz"><img src="https://img.shields.io/badge/Make_a-Donation-006bb6.svg?style=flat-square" alt="One-time Donation"></a>
+</p>
 
-Introduction
-------------
+---
 
-Directory Lister is a simple PHP script that lists the contents of any web-accessable directory and
-allows navigating there within. Simply upload Directory Lister to any directory and get immediate
-access to all files and sub-direcories under that directory. Directory Lister is written in PHP and
-distributed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
-
-Like this project? Want to keep it free? [Make a donation](https://cash.me/$ChrisKankiewicz).
-
-More info available at <http://www.directorylister.com>
-
+Directory Lister is the easiest way to expose the contents of any web-accessible
+folder for browsing and sharing. With a zero configuration, drag-and-drop
+installation you'll be up and running in less than a minute. 
 
 Features
 --------
 
-  * Extremely simple installation
-  * Creates on-the-fly listing of any web-accessable directory
-  * Custimizable sort order of files/folders
-  * Easily define hidden files to be excluded from the listing
-
+  - **Simple installation** allows you to be up and running in less than a minute.
+  - **Light and dark themes** to suit your professional needs or personal style.
+  - **Custom sort ordering** gives you control of the ordering of your files/folders.
+  - **File search** helps you locate the files you need quickly and efficiently.
+  - **File hashes** instill confidence when downloading files through verification.
+  - **Readme rendering** allows exposing the contents of READMEs directly on the page.
+  - **Zip downloads** for fetching an entire directory of files in a single action.
+  - **Multi-lingual support** brings Directory Lister to the language of your choice.
 
 Requirements
 ------------
 
-Directory Lister requires PHP 5.3+ to work properly.  For more information on PHP, please visit
-<http://www.php.net>.
-
+  - [PHP](https://php.net) >= 7.2
+    - [PHP Zip](https://www.php.net/manual/en/book.zip.php) extension
 
 Installation
 ------------
 
-  1. Copy `resources/default.config.php` to `resources/config.php`
-  2. Upload `index.php` and the `resources` folder to the folder you want listed
-  3. Upload additional files to the same directory as index.php
+  1. [Download Directory Lister](https://www.directorylister.com)
+  2. Extract the zip/tar archive
+  3. Copy extracted files/folders to your web server
 
+Configuration
+-------------
+
+  1. Copy `.env.example` to `.env`
+  2. Edit the configuration values in `.env`
+
+See the [Config Reference](https://github.com/DirectoryLister/DirectoryLister/wiki/Config-Reference) for more information about individual options.
+
+Changelog
+---------
+
+A list of changes can be found on the [GitHub Releases](https://github.com/DirectoryLister/DirectoryLister/releases) page.
 
 Troubleshooting
 ---------------
 
-Ensure you have the latest version of Directory Lister installed.
+See the [Common Issues](https://github.com/DirectoryLister/DirectoryLister/wiki/Common-Issues) page for a list of common issues and help in solving them.
 
-Verify that you have PHP 5.3 or later installed. You can verify your PHP version by running:
+For general help and support join our [Spectrum Community](https://spectrum.chat/directory-lister) or reach out on [Twitter](https://twitter.com/DirectoryLister).
 
-    php --version
+Please report bugs to the [GitHub Issue Tracker](https://github.com/DirectoryLister/DirectoryLister/issues).
 
+Copyright
+---------
 
-Contact Info
-------------
-
-Contact us via our mailling list at [Directory-Lister@GoogleGroups.com](mailto:Directory-Lister@GoogleGroups.com)
-or [join our Google Group](https://groups.google.com/forum/?fromgroups#!forum/directory-lister) online.
-
-Follow Directory Lister on Twitter at [@DirectoryLister](https://twitter.com/directorylister) or
-follow the developer at [@PHLAK](https://twitter.com/PHLAK)
-
-Find a problem or bug with Directory Lister?
-[Open an issue](https://github.com/DirectoryLister/DirectoryLister/issues) on GitHub.
-
-
-License
--------
-
-Directory Lister is distributed under the terms of the
-[MIT License](http://www.opensource.org/licenses/mit-license.php).
-Copyright 2017 [Chris Kankiewicz](http://www.chriskankiewicz.com)
+This project is licensed under the [MIT License](https://github.com/DirectoryLister/DirectoryLister/blob/master/LICENSE).

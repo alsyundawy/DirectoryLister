@@ -1,2 +1,6 @@
-analytics.inc
-resources/config.php
+/app/vendor/
+/node_modules/
+.env
+.php_cs.cache
+.phpunit.result.cache
+mix-manifest.json

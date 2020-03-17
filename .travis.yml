@@ -1,0 +1,24 @@
+os: linux
+dist: bionic
+language: php
+
+php:
+  - 7.3
+  - 7.4
+  - nightly
+
+jobs:
+  allow_failures:
+    - php: nightly
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - app/vendor
+
+install: composer install
+
+script:
+  - app/vendor/bin/php-cs-fixer fix --diff --dry-run
+  - app/vendor/bin/psalm --show-info=true
+  - app/vendor/bin/phpunit --coverage-text
